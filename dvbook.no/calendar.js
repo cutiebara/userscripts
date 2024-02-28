@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Calendar Location Replacer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/cutiebara/userscripts
+// @version      1.0
 // @description  Replaces "Location" with custom address in Google Calendar events
 // @author       cutiebara
 // @match        https://calendar.google.com/calendar/u/0/r/eventedit*

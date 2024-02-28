@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kurator Main nrk.no
-// @namespace    cutiebara
+// @namespace    https://github.com/cutiebara/userscripts
 // @version      1.0
 // @description  Skips the top bar and shows only content on nrk.no
 // @author       cutiebara

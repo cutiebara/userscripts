@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube URL Modifier for Shorts
-// @namespace    cutiebara
+// @namespace    https://github.com/cutiebara/userscripts
 // @version      1.0
 // @description  Replace "/shorts/" with "/video/" in YouTube URLs
 // @author       cutiebara

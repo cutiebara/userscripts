@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         7tv Redirects
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Redirects all 7tv.app URLs to old.7tv.app URLs
 // @author       cutiebara
 // @match        https://7tv.app/*
@@ -12,14 +12,8 @@
 (function() {
     'use strict';
 
-    // Get the current URL
-    const currentUrl = window.location.href;
-
-    // Replace "7tv.app" with "old.7tv.app"
-    const newUrl = currentUrl.replace('7tv.app', 'old.7tv.app');
-
-    // Redirect to the new URL
-    if (currentUrl !== newUrl) {
-        window.location.replace(newUrl);
+    // Redirect directly by updating hostname
+    if (location.hostname === '7tv.app') {
+        location.hostname = 'old.7tv.app';
     }
 })();
